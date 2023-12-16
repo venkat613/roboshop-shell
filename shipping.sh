@@ -86,4 +86,4 @@ VALIDATE $? "loading shipping data"
 
 systemctl restart shipping &>> $LOGFILE
 
-VALIDATE $? "restart shipping
+VALIDATE $? "restart shipping"
